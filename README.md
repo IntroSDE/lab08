@@ -20,7 +20,7 @@ Last, but not least, your knowledge of service design and engineering would not 
 ![][6]
 
 There are two ways to structure a SOAP message 
-* **RPC Style** web service uses the names of the method and its parameters to generate XML structures that represent a methods call stack. In the early versions of SOAP (before it was publicly published),  When using RPC style, the contents of the SOAP Body must conform to a structure that indicates the method name and contains a set of parameters.
+* **RPC Style** web service uses the names of the method and its parameters to generate XML structures that represent a method call stack. In the early versions of SOAP (before it was publicly published),  When using RPC style, the contents of the SOAP Body must conform to a structure that indicates the method name and contains a set of parameters.
 * **Document style** indicates that the SOAP body contains a XML document which can be validated against pre-defined XML schema document. When using Document style, you can structure the contents of the SOAP Body any way you like.
 * The response message has a similar structure containing the return value and any output parameters. For example, you can pass a **purchase order** as a document or as a parameter in a method called placeOrder. 
 
