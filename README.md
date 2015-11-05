@@ -1,13 +1,7 @@
 # LAB08: SOAP Web Services (1)
 
-**Introduction to Service Design and Engineering | University of Trento | [Webpage](https://sites.google.com/site/introsdeunitn/lab-sessions/lab-session-7 "Permalink to LAB07: Reading and writing from Databases & JPA (Java Persistence API)")**
-
 Last, but not least, your knowledge of service design and engineering would not be complete if you do not know how to implement services that follows the SOAP protocol. In this module, we will get acquainted with JAX-WX as the framework for implementing SOAP services.   
 
-
-## Code
-
-Links: [Source code][1]
 
 ## Guiding Notes
 
