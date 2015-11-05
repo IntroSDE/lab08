@@ -139,7 +139,7 @@ There are two ways to structure a SOAP message
 
 ### JAX-WS Tutorial - Implementing Clients 
 
-* Create a package **introsde.client** and add the following class. Notice how we **QName** clase is used to reference the service class we are calling. The package of the Service implementation is reversed (**ws.document.introsde**) and the second argument refers to the name of the service as define in the WSDL (**HelloWorldImplService**)
+* Create a package **introsde.client** and add the following class. Notice how we **QName** clase is used to reference the service class we are calling. The package of the Service implementation is reversed (**ws.introsde**) and the second argument refers to the name of the service as define in the WSDL (**HelloWorldImplService**)
 
     ```java
     package introsde.client;
@@ -152,7 +152,7 @@ There are two ways to structure a SOAP message
             URL url = new URL("http://localhost:6900/ws/hello?wsdl");
             // 1st argument service URI, refer to wsdl document above
             // 2nd argument is service name, refer to wsdl document above
-            QName qname = new QName("http://ws.document.introsde/", "HelloWorldImplService");
+            QName qname = new QName("http://ws.introsde/", "HelloWorldImplService");
             Service service = Service.create(url, qname);
             HelloWorld hello = service.getPort(HelloWorld.class);
             System.out.println(hello.getHelloWorldAsString("Pinco"));
