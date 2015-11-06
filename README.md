@@ -114,7 +114,7 @@ There are two ways to structure a SOAP message
     <soap:Envelope
     xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
     soap:encodingStyle="http://www.w3.org/2001/12/soap-encoding">
-      <soap:Body xmlns:m="http://ws.document.introsde/">
+      <soap:Body xmlns:m="http://ws.introsde/">
       <m:getHelloWorldAsString>
         <arg0>Pinco</arg0>
       </m:getHelloWorldAsString>
@@ -130,7 +130,7 @@ There are two ways to structure a SOAP message
         xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
         <S:Body>
             <ns2:getHelloWorldAsStringResponse
-                xmlns:ns2="http://ws.document.introsde/">
+                xmlns:ns2="http://ws.introsde/">
                 <return>Hello World JAX-WS Pinco</return>
             </ns2:getHelloWorldAsStringResponse>
         </S:Body>
