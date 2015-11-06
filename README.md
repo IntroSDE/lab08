@@ -381,7 +381,7 @@ There are two ways to structure a SOAP message
     wsgen -keep -cp . introsde.document.ws.HelloWorldImpl
     ```
 
-* It will generate two classes in **build/classes/introsde/ws/jaxws**
+* It will generate two classes in **build/classes/introsde/document/ws/jaxws**
  * GetHelloWorldAsString.java
  * GetHelloWorldAsStringResponse.java
 * These two classes are the **documents** that will be inserted in the body of the SOAP message. They can be seen as the equivalents to the **model** in Jersey. 
