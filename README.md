@@ -385,7 +385,7 @@ There are two ways to structure a SOAP message
  * GetHelloWorldAsString.java
  * GetHelloWorldAsStringResponse.java
 * These two classes are the **documents** that will be inserted in the body of the SOAP message. They can be seen as the equivalents to the **model** in Jersey. 
-* Copy these two classes to your **src/introsde/ws/jaxws** folder, in order to reference them.
+* Copy these two classes to your **src/introsde/document/ws/jaxws** folder, in order to reference them.
 
 * **GetHelloWorldAsString.java.** Since the HelloWorld service returns a string, this is a class whose only property is a string.
 
