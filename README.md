@@ -332,6 +332,7 @@ There are two ways to structure a SOAP message
     public interface HelloWorld{
         @WebMethod String getHelloWorldAsString(String name);
     }
+    ```
 
 * Create the Web Service Endpoint Implementation **HelloWorldImpl.java** (no changes here)
 
@@ -346,6 +347,7 @@ There are two ways to structure a SOAP message
             return "Hello World JAX-WS " + name;
         }
     }
+    ```
 
 * Create the Endpoint Publisher **HelloWorldPublisher.java**
 
