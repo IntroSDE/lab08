@@ -7,5 +7,6 @@ import introsde.document.ws.HelloWorldImpl;
 public class HelloWorldPublisher {
 	public static void main(String[] args) {
 		Endpoint.publish("http://localhost:6901/ws/hello", new HelloWorldImpl());
+		System.out.print("The server is running. Visit http://localhost:6901/ws/hello?wsdl");
 	}
 }
